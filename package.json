@@ -1,0 +1,23 @@
+{
+  "name": "front-end-quiz",
+  "version": "1.0.0",
+  "description": "Using Backbone and jQuery take `item.json` and render a form similar to the form illustrated in `1stdibs_fe_quiz.jpg`.",
+  "main": "form.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TPewarski/front-end-quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TPewarski/front-end-quiz/issues"
+  },
+  "homepage": "https://github.com/TPewarski/front-end-quiz#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
