@@ -244,5 +244,5 @@ var ItemForm = React.createClass({
 
 React.render(
 	<ItemForm />,
-	document.getElementById('content2')
+	document.getElementById('content')
 	)
