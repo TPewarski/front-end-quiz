@@ -13,7 +13,7 @@
             },
             "measurement": {
                 "unit": "in",
-                "shape": "",
+                "shape": "Rectangular",
                 "length": "4.5",
                 "depth": "4.5",
                 "height": "12"
