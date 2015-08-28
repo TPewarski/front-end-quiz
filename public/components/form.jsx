@@ -243,6 +243,9 @@ var ItemForm = React.createClass({
 
 
 React.render(
-	<ItemForm />,
+	<div>
+		<h2>Hello World!</h2>
+		<ItemForm />
+	</div>,
 	document.getElementById('content')
 	)

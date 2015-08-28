@@ -1,3 +1,6 @@
+reactweb-pack tutorial: http://jslog.com/2014/10/02/react-with-webpack-part-1/
+
+
 ### 1stdibs.com front-end developer candidate quiz ###
 
 Using Backbone and jQuery take `item.json` and render a form similar to the form illustrated in `1stdibs_fe_quiz.jpg`.
