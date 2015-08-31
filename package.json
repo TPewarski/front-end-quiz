@@ -5,7 +5,8 @@
   "main": "form.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./server/app.js"
+    "start": "node ./server/app.js | npm run dev",
+    "dev": "webpack-dev-server --progress --colors --port 8090"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,12 @@
   },
   "homepage": "https://github.com/TPewarski/front-end-quiz#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.12.0",
+    "webpack-dev-server": "^1.10.1"
   }
 }

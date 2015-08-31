@@ -1,0 +1,14 @@
+input.units {
+	margin: 5px;
+}
+
+#radioGroup span {
+	padding: 5px;
+}
+#radioGroup input {
+	margin: 5px;
+}
+
+#materials {
+	width: 50%;
+}
