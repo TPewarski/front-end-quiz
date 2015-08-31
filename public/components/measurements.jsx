@@ -23,9 +23,9 @@ module.exports = React.createClass({
   		<div className="col-md-12">
 	  		<Header bold="Measurements" />
 	  		<p>Measurements are in: 
-		  		<input style={{margin: "5px"}} type="radio" checked={this.props.value.unit == "in" ? true : false} name="measurement.unit" value="in" onChange={this.handleChange} />
+		  		<input className="units"  type="radio" checked={this.props.value.unit == "in" ? true : false} name="measurement.unit" value="in" onChange={this.handleChange} />
 		  		<span> Inches(in) </span>
-		  		<input style={{margin: "5px"}} type="radio" checked={this.props.value.unit == "cm" ? true : false} name="measurement.unit" value="cm" onChange={this.handleChange} />
+		  		<input className="units"  type="radio" checked={this.props.value.unit == "cm" ? true : false} name="measurement.unit" value="cm" onChange={this.handleChange} />
 		  		<span> Centimeters(cm) </span>
 		  	</p>
 		  	<p>Measured item is: 
