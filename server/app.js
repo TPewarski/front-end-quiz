@@ -17,7 +17,7 @@ app.get('/', function(req, res){
 // 	res.send(../public/json/item.json)
 // })
 
-app.listen('65534')
+app.listen('10000')
 
 console.log("Hello, world!")
 
