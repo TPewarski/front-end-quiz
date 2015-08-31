@@ -3,7 +3,6 @@ var Header = require("./header");
 
 module.exports= React.createClass({
 	render: function(){
-		console.log("description value", this.props.value)
 		return (
 			<div className="col-md-12">
 				<Header bold="Description" />
