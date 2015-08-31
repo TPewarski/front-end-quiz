@@ -2,7 +2,6 @@ var React = require('react');
 module.exports = React.createClass(({
 	render: function(){
 		var self = this
-		console.log("this.props.enums", this.props.enums)
 		return(
 			<span id="radioGroup">
 				{self.props.enums.map(function(option){
